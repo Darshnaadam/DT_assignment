@@ -22,19 +22,4 @@ document.addEventListener("DOMContentLoaded", function () {
       myText.classList.add("active");
     }
   });
-
-  // var elements = document.getElementsByClassName("desc-icon");
-
-  // Array.from(elements).forEach(function (element) {
-  //   element.addEventListener("click", function () {
-  //     var targetId = this.getAttribute("data-target");
-  //     var targetElement = document.getElementById(targetId);
-
-  //     if (targetElement.classList.contains("active")) {
-  //       targetElement.classList.remove("active");
-  //     } else {
-  //       targetElement.classList.add("active");
-  //     }
-  //   });
-  // });
 });
