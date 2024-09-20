@@ -23,18 +23,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  var elements = document.getElementsByClassName("desc-icon");
+  // var elements = document.getElementsByClassName("desc-icon");
 
-  Array.from(elements).forEach(function (element) {
-    element.addEventListener("click", function () {
-      var targetId = this.getAttribute("data-target");
-      var targetElement = document.getElementById(targetId);
+  // Array.from(elements).forEach(function (element) {
+  //   element.addEventListener("click", function () {
+  //     var targetId = this.getAttribute("data-target");
+  //     var targetElement = document.getElementById(targetId);
 
-      if (targetElement.classList.contains("active")) {
-        targetElement.classList.remove("active");
-      } else {
-        targetElement.classList.add("active");
-      }
-    });
-  });
+  //     if (targetElement.classList.contains("active")) {
+  //       targetElement.classList.remove("active");
+  //     } else {
+  //       targetElement.classList.add("active");
+  //     }
+  //   });
+  // });
 });

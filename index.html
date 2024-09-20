@@ -1,297 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DT Assignment</title>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deep-Thought</title>
+    <link rel="stylesheet" href="styles.css" />
     <script src="index.js"></script>
-</head>
-<body>
-    <!-- Navbar section -->
-        <div class="navbar">
-            <div class="logo">
-                <img src="logo.svg" alt="Deep thought logo">
-            </div>
-            <div class="icons-section">
-                <div class="icon">
-                    <img class="resize-icon" src="home_icon.png" alt="Home" />
-                </div>
-                <div class="icon">
-                    <img class="resize-icon" src="tool_icon.png" alt="Settings" />
-                </div>
-                <div class="icon notification active">
-                    <img class="resize-icon" src="bell_icon.png" alt="Notification"/>
-                </div>
-                <div class="icon user-dp">
-                    <img class="resize-icon" src="img_icon.png" alt="User" />
-                </div>
-                <div class="icon three-dots">&#8942;</div>
-            </div>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <img src="./images/logo.svg" alt="Logo" class="logo" />
+      <div class="icons-container">
+        <div class="icon">
+          <img class="resize-icon" src="./images/home_icon.png" alt="Home" />
+        </div>
+        <div class="icon">
+          <img
+            class="resize-icon"
+            src="./images/tool_icon.png"
+            alt="Settings"
+          />
+        </div>
+        <div class="icon notification active">
+          <img
+            class="resize-icon"
+            src="./images/bell_icon.png"
+            alt="Notification"
+          />
+        </div>
+        <div class="icon">
+          <img class="resize-icon" src="./images/img_icon.png" alt="User" />
+        </div>
+        <div class="icon three-dots">&#8942;</div>
+      </div>
+    </div>
+
+    <!-- Side bar -->
+    <div class="algn">
+      <div id="jrn" class="journeyboard">
+        <div class="black"><h3>Journey Board</h3></div>
+        <div class="journey">1</div>
+        <div class="detail">
+          <ol>
+            <li>Explore the World of Management</li>
+          </ol>
+          <ul>
+            <li>Technical Project Management</li>
+            <li>Threadbuild</li>
+            <li>Structure your pointers</li>
+            <li>4SA Method</li>
+          </ul>
+        </div>
+      </div>
+
+      <!--Notice Board Section-->
+      <div class="noticeboard">
+        <div class="blak">
+          <h4>X</h4>
+          <h4>N o t i c e &nbsp; B o a r d</h4>
+        </div>
+        <div class="menu">
+          <div class="ring">
+            <img height="20" src="./images/question-mark.png" alt="" />
+          </div>
+          <div class="ring">
+            <img height="20" src="./images/meeting.png" alt="" />
+          </div>
+          <div class="ring">
+            <img height="20" src="./images/schedule.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Technical Project Management Title -->
+      <div class="main">
+        <div class="header">
+          <div class="title" id="task_title"></div>
+          <button class="submit">Submit Task</button>
+        </div>
+        <div class="explore">
+          <h2>Explore the world of Management</h2>
+          <p>
+            As a project manager, you play an important role in leading a
+            project through initiation, planning, execution, monitoring,
+            controlling & completion. How? Do you want to manage each & every
+            step of your life?
+          </p>
         </div>
 
-        <!-- Technical Project Management section -->
-         <div class="header">
-            <div class="header-left">
-                <h1>Technical Project Management</h1>
+        <div class="cards">
+          <!--First asset content-->
+          <div class="assets">
+            <div class="asset-heading" id="asset1">
+              Technical Project Management
             </div>
-            <div class="header-right">
-                <button>Submit</button>
-            </div>
-         </div>
-
-        <!-- Journey board Section -->
-         
-        <div class="algn">
-            <div id="jrn" class="journeyboard">
-              <div class="black">
-                <h3>Journey Board</h3>
-            </div>
-              <div class="journey">1</div> 
-              <div class="detail"> 
-                <ul class="first">
-                  <li>Explore the World of Management</li>
-                </ul>
-                <ul>
-                  <li>Technical Project Management</li>
-                  <li>Threadbuild</li>
-                  <li>Structure your pointers</li>
-                  <li>4SA Method</li>
-                </ul>
+            <img
+              data-target="X"
+              id="desc-icon"
+              class="desc-icon"
+              src="./images/I_icon.png"
+              alt=""
+            />
+            <div class="asset-content">
+              <div class="asset-desc">
+                <b>Description: </b>Story of Alignment Scope of Agility Specific
+                Accountable Staggering Approach
               </div>
+              <iframe
+                width="100%"
+                height="60%"
+                src="https://youtube.com/embed/TiMRwri1xJ8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
-      
-            <!--Notice Board Section-->
-            <div class="noticeboard">
-              <div class="black-board">
-                <h4>X</h4>
-                <h4>N o t i c e &nbsp; B o a r d</h4>
-              </div>
+          </div>
 
-            <!--side menus-->
-              <div class="menu">
-                <div class="ring">
-                  <img height="20" src="question-mark.png" alt="" />
-                </div>
-                <div class="ring">
-                  <img height="20" src="meeting.png" alt="" />
-                </div>
-                <div class="ring">
-                  <img height="20" src="schedule.png" alt="" />
-                </div>
-              </div>
-            </div>
-      
-            <div class="main">
-                
-              <div class="explore">
-                <h2>Explore the world of Management</h2>
-                <p>
-                  As a project manager, you play an important role in leading a
-                  project through initiation, planning, execution, monitoring,
-                  controlling & completion. How? Do you want to manage each & every
-                  step of your life?
-                </p>
-              </div>
+          <!--Second asset content-->
+          <div class="assets">
+            <div class="asset-heading" id="asset2">Threadbuild</div>
+            <img
+              data-target="Y"
+              class="desc-icon"
+              src="./images/I_icon.png"
+              alt=""
+            />
 
-              <!--four boxes-->
-            <div class="cards">
-
-                <!--First box-->
-                <div class="assets">
-                  <div class="asset-heading" id="asset1">
-                    Technical Project Management
-                  </div>
-                  <img
-                    data-target="X"
-                    id="desc-icon"
-                    class="desc-icon"
-                    src="I_icon.png"
-                    alt=""
+            <div class="asset-content">
+              <div class="asset-desc">
+                <b>Description: </b>Watch the video & threadbuild, and jot out
+                key threads while watching the video
+              </div>
+              <div class="wrapper">
+                <div class="collapsible">
+                  <input
+                    type="checkbox"
+                    id="collapsible-head"
+                    class="frst"
+                    checked
                   />
-                  <div class="asset-content">
-                    <div class="asset-desc" id="X">
-                      <b>Description: </b>Story of Alignment Scope of Agility Specific
-                      Accountable Staggering Approach
-                    </div>
-                    <iframe
-                      width="100%"
-                      height="60%"
-                      src="https://youtube.com/embed/TiMRwri1xJ8"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-            </div>
-
-            <!--Second box-->
-                <div class="assets">
-                  <div class="asset-heading" id="asset2">
-                    Threadbuild
-                </div>
-                  <img
-                    data-target="Y"
-                    class="desc-icon"
-                    src="I_icon.png"
-                    alt=""
-                  />
-
-                  <div class="asset-content">
-                    <div class="asset-desc" id="Y">
-                      <b>Description: </b>Watch the video & threadbuild, and jot out
-                      key threads while watching the video
-                    </div>
-                    <div class="wrapper">
-                      <div class="collapsible">
-                        <input
-                          type="checkbox"
-                          id="collapsible-head"
-                          class="frst"
-                          checked
-                        />
-                        <label for="collapsible-head">Thread A</label>
-                        <div class="collapsible-text fs">
-                          <div class="mini-cards">
-                            <div class="sub-cards">
-                              <div class="text-heading">Sub Thread 1</div>
-                              <textarea
-                                class="thread-text"
-                                placeholder="Enter Text Here"
-                              ></textarea>
-                            </div>
-                            <div class="sub-cards">
-                              <div class="text-heading">Sub Interpretation 1</div>
-                              <textarea
-                                class="thread-text"
-                                type="text"
-                                placeholder="Enter Text Here"
-                              ></textarea>
-                            </div>
-                          </div>
-                          <div class="sixicon">
-                            <div class="ikons">
-                              <img src="ic1.png" />
-                              <img src="ic2.png" />
-                              <img src="ic3.png" />
-                              <img src="ic4.png" />
-                            </div>
-                            <div class="dropdowns">
-                              <select>
-                                <option>Category</option>
-                                <option>Option 1</option>
-                                <option>Option 2</option>
-                              </select>
-                              <select>
-                                <option>Process</option>
-                                <option>Option A</option>
-                                <option>Option B</option>
-                              </select>
-                            </div>
-                          </div>
-                          <button class="sub-thread">+ Sub-thread</button>
-                          <div class="mini-cards-long">
-                            <div class="sub-cards-long">
-                              <div class="text-heading-long">
-                                Summary for thread A
-                              </div>
-                              <textarea
-                                class="thread-text-long"
-                                type="text"
-                                placeholder="Enter Text Here"
-                              ></textarea>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!--Third box-->
-                <div class="assets">
-                  <div class="asset-heading" id="asset3">
-                    Structure your Pointers
-                  </div>
-                  <img
-                    data-target="Z"
-                    class="desc-icon"
-                    src="I_icon.png"
-                    alt=""
-                  />
-                  <div class="asset-content">
-                    <div class="asset-desc" id="Z">
-                      <b>Description: </b>Write a 300 - 400 word article from your
-                      thread. Publish your understanding and showcase your
-                      understanding to the entire world
-                    </div>
-                    <div class="left">
-                      <div class="heading cut">Title</div>
-                      <div class="inp-1">
-                        <input
-                          class="nb1"
-                          type="text"
-                          placeholder="Enter Text here"
-                        />
-                      </div>
-                      <div class="heading">Content</div>
-                      <div class="inp-2">
+                  <label for="collapsible-head">Thread A</label>
+                  <div class="collapsible-text fs">
+                    <div class="mini-cards">
+                      <div class="sub-cards">
+                        <div class="text-heading">Sub Thread 1</div>
                         <textarea
-                          class="nb2"
+                          class="thread-text"
+                          placeholder="Enter Text Here"
+                        ></textarea>
+                      </div>
+                      <div class="sub-cards">
+                        <div class="text-heading">Sub Interpretation 1</div>
+                        <textarea
+                          class="thread-text"
                           type="text"
-                          placeholder="Enter Text here"
+                          placeholder="Enter Text Here"
                         ></textarea>
                       </div>
                     </div>
-                  </div>
-                </div>
-
-                <!--Fourth Box-->
-                <div class="assets">
-                  <div class="asset-heading" id="asset4">
-                    4SA Method
-                  </div>
-                  <img
-                    data-target="A"
-                    class="desc-icon"
-                    src="I_icon.png"
-                    alt=""
-                  />
-                  <div class="asset-content">
-                    <div class="asset-desc" id="A">
-                      <b>Description: </b>To Explore more read more
+                    <div class="sixicon">
+                      <div class="ikons">
+                        <img src="./images/ic1.png" />
+                        <img src="./images/ic2.png" />
+                        <img src="./images/ic3.png" />
+                        <img src="./images/ic4.png" />
+                      </div>
+                      <div class="dropdowns">
+                        <select>
+                          <option>Category</option>
+                          <option>Option 1</option>
+                          <option>Option 2</option>
+                        </select>
+                        <select>
+                          <option>Process</option>
+                          <option>Option A</option>
+                          <option>Option B</option>
+                        </select>
+                      </div>
                     </div>
-                    <div class="wrapper">
-                      <div class="collapsible">
-                        <input
-                          type="checkbox"
-                          id="collapsible-head-1"
-                          class="scnd"
-                          checked
-                        />
-                        <label for="collapsible-head-1">Introduction</label>
-                        <div class="collapsible-text sc">
-                          <div class="tmp1">
-                            The 4SA Method , How to bring a idea into progress ?
-                          </div>
-                          <div class="temp1">See More</div>
+                    <button class="sub-thread">+ Sub-thread</button>
+                    <div class="mini-cards-long">
+                      <div class="sub-cards-long">
+                        <div class="text-heading-long">
+                          Summary for thread A
                         </div>
-                        <input
-                          type="checkbox"
-                          id="collapsible-head-2"
-                          class="thrd"
-                          checked
-                        />
-                        <label for="collapsible-head-2">Thread A</label>
-                        <div class="collapsible-text th">
-                          <div class="tmp1">
-                            How are you going to develop your stratergy ? Which method
-                            are you going to use to develop a stratergy ? What if the
-                            project is lengthy?
-                          </div>
-                          <div class="temp1">See More</div>
-                        </div>
+                        <textarea
+                          class="thread-text-long"
+                          type="text"
+                          placeholder="Enter Text Here"
+                        ></textarea>
                       </div>
                     </div>
                   </div>
@@ -299,6 +199,92 @@
               </div>
             </div>
           </div>
-         
-</body>
+
+          <!--Third asset content-->
+          <div class="assets">
+            <div class="asset-heading" id="asset3">Structure your Pointers</div>
+            <img
+              data-target="Z"
+              class="desc-icon"
+              src="./images/I_icon.png"
+              alt=""
+            />
+            <div class="asset-content">
+              <div class="asset-desc">
+                <b>Description: </b>Write a 300 - 400 word article from your
+                thread. Publish your understanding and showcase your
+                understanding to the entire world
+              </div>
+              <div class="left">
+                <div class="heading cut">Title</div>
+                <div class="inp-1">
+                  <input
+                    class="nb1"
+                    type="text"
+                    placeholder="Enter Text here"
+                  />
+                </div>
+                <div class="heading">Content</div>
+                <div class="inp-2">
+                  <textarea
+                    class="nb2"
+                    type="text"
+                    placeholder="Enter Text here"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Fourth asset content-->
+          <div class="assets">
+            <div class="asset-heading" id="asset4">4SA Method</div>
+            <img
+              data-target="A"
+              class="desc-icon"
+              src="./images/I_icon.png"
+              alt=""
+            />
+            <div class="asset-content">
+              <div class="asset-desc">
+                <b>Description: </b>To Explore more read more
+              </div>
+              <div class="wrapper">
+                <div class="collapsible">
+                  <input
+                    type="checkbox"
+                    id="collapsible-head-1"
+                    class="scnd"
+                    checked
+                  />
+                  <label for="collapsible-head-1">Introduction</label>
+                  <div class="collapsible-text sc">
+                    <div class="tmp1">
+                      The 4SA Method , How to bring a idea into progress ?
+                    </div>
+                    <div class="temp1">See More</div>
+                  </div>
+                  <input
+                    type="checkbox"
+                    id="collapsible-head-2"
+                    class="thrd"
+                    checked
+                  />
+                  <label for="collapsible-head-2">Thread A</label>
+                  <div class="collapsible-text th">
+                    <div class="tmp1">
+                      How are you going to develop your stratergy ? Which method
+                      are you going to use to develop a stratergy ? What if the
+                      project is lengthy?
+                    </div>
+                    <div class="temp1">See More</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
